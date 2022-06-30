@@ -14,14 +14,21 @@ class _MyHomePageState extends State<MyHomePage> {
   List<MyContainer> widgetArrary = [
     const MyContainer(),
     const MyContainer(),
-    const MyContainer(),
-    const MyContainer(),
   ];
+
+  void swapped() {
+    if (swap) {
+      swap = false;
+      setState(() {});
+    } else {
+      swap = true;
+      setState(() {});
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[100],
       body: swap
           ? SafeArea(
               child: Row(
@@ -35,13 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
           : null,
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          if (swap) {
-            swap = false;
-            setState(() {});
-          } else {
-            swap = true;
-            setState(() {});
-          }
+          swapped();
         },
         child: const Icon(
           Icons.clear_all_rounded,
