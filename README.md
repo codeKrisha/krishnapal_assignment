@@ -9,6 +9,9 @@
 5. In the MyHomePage class a List of Container widgets is created and the list is filled with MyContainer class.<br>
 6. This MyContainer class extends StatefullWidget which is located in 'lib/components' folder. In the MyContainer class, 'build' method returns a Container widget which has height of 100 and width of 100 and a color property which is set to a 'clr' variable, this 'clr' variable is defind as 'Color' data type.<br>
 7. In the 'initstate()' method, the 'clr' variable is set to a random color.</div>
+<h2>ScreenShots</h2>
 <div>
-<img src="assets/img.jpg">
+<img src="assets/img.jpg" width=256 style="display:inline-block">
+<img src="assets/video.gif" width=256 style="display:inline-block">
+
 </div>
