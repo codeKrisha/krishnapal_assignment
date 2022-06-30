@@ -9,9 +9,14 @@
 5. In the MyHomePage class a List of Container widgets is created and the list is filled with MyContainer class.<br>
 6. This MyContainer class extends StatefullWidget which is located in 'lib/components' folder. In the MyContainer class, 'build' method returns a Container widget which has height of 100 and width of 100 and a color property which is set to a 'clr' variable, this 'clr' variable is defind as 'Color' data type.<br>
 7. In the 'initstate()' method, the 'clr' variable is set to a random color.</div>
-<h2>ScreenShots</h2>
+<h2>Screenshots</h2>
 <div>
 <img src="assets/img.jpg" width=256 style="display:inline-block">
 <img src="assets/video.gif" width=256 style="display:inline-block">
-
 </div>
+<h2>How to use App</h2>
+<p>
+1. In the openning of the app, we can see a screen having two Containers and a floating button situated at right bottom of the screen.<br>
+2. Every time when we tapped on the floating button, firsty the containers will be swapped and then the containers will reapear with different colors. 
+</p>
+
