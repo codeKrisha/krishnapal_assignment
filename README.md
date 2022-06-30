@@ -10,5 +10,5 @@
 6. This MyContainer class extends StatefullWidget which is located in 'lib/components' folder. In the MyContainer class, 'build' method returns a Container widget which has height of 100 and width of 100 and a color property which is set to a 'clr' variable, this 'clr' variable is defind as 'Color' data type.<br>
 7. In the 'initstate()' method, the 'clr' variable is set to a random color.</div>
 <div>
-<img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGhvdG98ZW58MHx8MHx8&w=1000&q=80" >
+<img src="assets/img.jpg">
 </div>
